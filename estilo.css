@@ -1,0 +1,128 @@
+* {
+  margin: 0px;
+  padding: 0%;
+  font-family: Helvetica;
+}
+
+.titulo {
+  display:flex;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(11, 41, 190);
+  color:black;
+}
+
+.titulo img{
+  height: 60px;
+  margin-left: 55px;
+}
+
+  .center{
+      margin-right: 40%;
+}
+
+header{
+  display: flex;
+  min-height: 50px;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+header nav a{
+  padding-right: 40px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: helvetica;
+  color: rgb(0, 255, 208);
+  font-weight: bold;
+  transition:  0.4s ease;
+}
+
+header nav a:hover{
+  padding-right: 40px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family:'Times New Roman', Times, serif;
+  color: black;
+  font-weight: bold;
+  transition:  0.4s ease;
+}
+
+
+body {
+  background-color: rgb(255, 0, 0);
+  color:rgb(255, 255, 255);
+  font-size: 15px;
+}
+
+
+.tabla{
+  width: 85%;
+  margin-top: 10px;
+  padding-bottom: 50px;
+}
+
+img{
+  border-radius: 10px 10px 0 0;
+  
+}
+
+.card {
+
+  box-shadow: 0 10px 12px 10px rgba(0, 0, 0, 0.2);
+  margin: 70px;
+  margin-top: 80px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  width: 60%;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(255, 162, 0);
+  background-color: rgb(120, 0, 0);
+  transition: 0.5s ease
+  
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(1, 253, 164, 0.516);
+  width: 65%;
+  transition: 1s ease;
+  
+}
+.card:active{
+  width: 60%;
+  transition: 0.5s ease;
+
+}
+
+.container {
+  padding: 2px 16px;
+  background-color: rosybrown;
+  font-weight: lighter;
+  border-radius: 0 0 0.4rem 0.4rem;
+  text-align: center;
+  font-size: 70%;
+  border-top: 2px solid black;
+}
+.container b{
+  font-style: unset;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 70%;
+}
+
+
+.pie {
+  text-align: center;
+  background-color: white;
+  color: black;
+  clear: both;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-family: verdana;
+  font-size: 20px;
+  font-weight: bold;
+}

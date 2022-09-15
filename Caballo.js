@@ -1,0 +1,1 @@
+alert("El caballo ​​ es un mamífero perisodáctilo domesticado de la familia de los équidos. Es un herbívoro perisodáctilo de gran porte, y cuello largo y arqueado poblado por largas crines.");
